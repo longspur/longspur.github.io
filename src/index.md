@@ -1,24 +1,9 @@
 ---
-title: About Me
+title: Sydney Horan
 layout: base.njk
 ---
 
-# Welcome to my website!
 
-So many ideas run through my head! Woah!!!
+Hello! My name is Sydney Horan. I am a Ph.D. candidate at the **University of Connecticut**. I am a scientist, artist and science communicator. My research broadly involves patterns in host-parasite interactions under conditions of environmental change.
 
-<strong>Did you know you can mix HTML with Markdown?</strong>
-
-**Neat, ain't it?**
-
-Lists?
-- Yeah
-- That's
-- Right
-- Unordered tho.
-  1. No worries!
-  2. Let your creativity grow strong!
-
-## Is that cool?
-
-Pls work lol.
+This site is a work in progress.
