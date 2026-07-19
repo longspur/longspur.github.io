@@ -29,4 +29,5 @@ jobs:
           publish_dir: public
           #publish_branch is the branch in the repository.
           #this is where you need to point GitHub pages
+          cname: sydhoran.com
           publish_branch: gh-pages
