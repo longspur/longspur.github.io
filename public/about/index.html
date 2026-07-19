@@ -1,32 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me - Sydney Horan</title>
+
+    
+
     <script src="https://kit.fontawesome.com/ada44e2de9.js" crossorigin="anonymous"></script>
 
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
     
-    <link type="text/css" rel="stylesheet" media="all" href="/css/style.css" id="theme_css" />
+  
+    <!-- <link type="text/css" rel="stylesheet" media="all" href="/css/style.css" id="theme_css" /> -->
  
 
   </head>
   <body>
-    <h1>Sydney Horan</h1>
-    <nav><a href="/">Home</a>
+    <div class="container p-3" style="max-width:900px;">
+    <h1 class="text-center text-uppercase">Sydney Horan</h1>
+    <nav><div class="container mb-3 text-center" style="max-width:900px;">
+<a href="/">Home</a>
 <a href="/about">About</a>
 <a href="/publications">Publications</a>
 <a href="/gallery">Gallery</a>
-</nav>
+</div></nav>
+    
+    <hr>
+
     <main><h3>About Me</h3>
-<p>Hello! I'm Sydney &quot;Syd&quot; Horan. I am a biologist who has worked in several systems, from newts to nestlings. My overall interest is the influence of environmental change and human influence on host-parasite (and host-pathogen) systems. I employ a mixture of field studies and laboratory work to answer these questions. I am currently a Ph.D. candidate at the University of Connecticut in the Department of Ecology and Evolutionary Biology.</p>
+<p>Hello! I'm Sydney &quot;Syd&quot; Horan. I am a biologist who has worked in several systems, from newts to nestlings. My overall interest is the influence of environmental change and human influence on host-parasite (and host-pathogen) systems. I employ a mixture of field studies and laboratory work to answer these questions, as well as utilizing natural history collections. I am currently a Ph.D. candidate at the University of Connecticut in the Department of Ecology and Evolutionary Biology.</p>
 <p>When I am not in the lab, I enjoy art, photography, birdwatching, hiking, and cooking.</p>
-<p><i class="fa-solid fa-code"></i> In my free time, I am also an amateur webmaster. This site was coded by hand without the use of generative AI, utilizing 11ty (Static Site Generator), Nunjucks, and hosted on Github Pages. Other features include Bootstrap (CSS), and icons from FontAwesome.</p>
+<p><i class="fa-solid fa-code text-secondary"></i> In my free time, I am also an amateur webmaster. This site was coded by hand without the use of generative AI, utilizing 11ty (Static Site Generator), Nunjucks, and hosted on Github Pages. Other features include Bootstrap (CSS), and icons from FontAwesome.</p>
 </main>
-    <footer><p>Coded by hand using 11ty and Nunjucks, hosted by Github Pages.</p></footer>
+
+    
+    <footer class="text-center">
+      <hr>
+
+      <p>Coded by hand using 11ty and Nunjucks, hosted by Github Pages.</p>
+      
+<div class="mode-switch">
+    <button title="Use dark mode" id="dark" class="btn btn-sm btn-default text-secondary">
+        <i class="fa-solid fa-moon"></i>
+    </button>
+    <button title="Use light mode" id="light" class="btn btn-sm btn-default text-secondary">
+        <i class="fa-solid fa-sun"></i>
+    </button>
+    <button title="Use system preferred mode" id="system" class="btn btn-sm btn-default text-secondary">
+        <i class="fa-solid fa-desktop"></i>
+    </button>
+</div>
+
+<!-- Script for dark mode -->
+
+<script>function setTheme (mode = 'auto') {
+  const userMode = localStorage.getItem('bs-theme');
+  const sysMode = window.matchMedia('(prefers-color-scheme: light)').matches;
+  const useSystem = mode === 'system' || (!userMode && mode === 'auto');
+  const modeChosen = useSystem ? 'system' : mode === 'dark' || mode === 'light' ? mode : userMode;
+
+  if (useSystem) {
+    localStorage.removeItem('bs-theme');
+  } else {
+    localStorage.setItem('bs-theme', modeChosen);
+  }
+
+  document.documentElement.setAttribute('data-bs-theme', useSystem ? (sysMode ? 'light' : 'dark') : modeChosen);
+  document.querySelectorAll('.mode-switch .btn').forEach(e => e.classList.remove('text-body'));
+  document.getElementById(modeChosen).classList.add('text-body');
+}
+
+setTheme();
+document.querySelectorAll('.mode-switch .btn').forEach(e => e.addEventListener('click', () => setTheme(e.id)));
+window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', () => setTheme());</script>
+
+      
+    </footer>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </div>
   </body>
 </html>
