@@ -9,4 +9,4 @@ Hello! I'm Sydney "Syd" Horan. I am a biologist who has worked in several system
 
 When I am not in the lab, I enjoy art, photography, birdwatching, hiking, and cooking.
 
-I am also an amateur webmaster. This site was coded by my own hands, upkept using a static site generator (11ty) and hosted on Github Pages. As a result, it is always under construction.
+<i class="fa-solid fa-code"></i> In my free time, I am also an amateur webmaster. This site was coded by hand without the use of generative AI, utilizing 11ty (Static Site Generator), Nunjucks, and hosted on Github Pages. Other features include Bootstrap (CSS), and icons from FontAwesome.
