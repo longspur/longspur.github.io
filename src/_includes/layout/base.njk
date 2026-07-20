@@ -20,25 +20,20 @@
 
   </head>
   <body>
+     {% include "partials/navbar.njk" %}
     <div class="container p-3" style="max-width:900px;">
-    <h1 class="text-center text-uppercase">Sydney Horan</h1>
-    <nav>{% include "partials/navbar.njk" %}</nav>
+    <!--<h1 class="text-center text-uppercase">Sydney Horan</h1>-->
+   
     
-    <hr>
-
     <main>{{ content | safe }}</main>
 
-    
-    <footer class="text-center">
-      <hr>
+    </div>
 
       {% include "partials/footer.njk" %}
       
-{% include "partials/switcher.njk" %}
       
-    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  </div>
+  
   </body>
 </html>

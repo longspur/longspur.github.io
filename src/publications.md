@@ -3,7 +3,8 @@ title: Publications
 layout: base.njk
 ---
 ### Publications
-<i class="fa-brands fa-google-scholar"></i> [Google Scholar](https://scholar.google.com/citations?user=4DPAGAUAAAAJ&hl=en)
+---
+<div class="text-center" style="font-size:1.1em;"> <i class="fa-brands fa-google-scholar text-secondary"></i> <a href="https://scholar.google.com/citations?user=4DPAGAUAAAAJ&hl=en">Google Scholar</a></div>
 
 ---
 
