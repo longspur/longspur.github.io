@@ -3,6 +3,9 @@ title: Publications
 layout: base.njk
 ---
 ### Publications
+<div class="text-secondary" style="font-size:0.9em;"><i class="fa-solid fa-clock"></i> Last updated: July 20th, 2026</div>
+
+---
 For more information on the projects these publications have come from, visit my [research](/research) page.
 <div class="text-center" style="font-size:1.1em;"> <i class="fa-brands fa-google-scholar text-secondary"></i> <a href="https://scholar.google.com/citations?user=4DPAGAUAAAAJ&hl=en">Google Scholar</a> - <i class="fa-brands fa-orcid text-secondary"></i> <a href="https://orcid.org/0009-0006-5466-1367">ORCID</a></div>
 

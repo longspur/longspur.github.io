@@ -4,6 +4,9 @@ layout: base.njk
 ---
 
 ### Research
+<div class="text-secondary" style="font-size:0.9em;"><i class="fa-solid fa-clock"></i> Last updated: July 20th, 2026</div>
+
+---
 A condensed research summary of the projects I've worked on over time. I employ a mixture of work in the field, lab, and collections to answer questions about host-parasite or host-pathogen relationships. View a more detailed version in my CV (coming soon!).
 
 <div class="text-center" style="font-size:smaller;">
@@ -32,17 +35,17 @@ A condensed research summary of the projects I've worked on over time. I employ 
 <div class="row gap-2 d-flex justify-content-between">
 
 <div class="col">
-     <figure class="figure"><a data-fslightbox="4" href="/images/slides.JPG"><img src="/images/slides.JPG" class="figure-img img-thumbnail border border-secondary" alt="A photograph of a hallway of slide boxes."></a> <figcaption class="figure-caption text-center">Avian parasite slide boxes</figcaption>
+     <figure class="figure"><a data-fslightbox="4" href="/images/slides.jpg"><img src="/images/slides.jpg" class="figure-img img-thumbnail border border-secondary" alt="A photograph of a hallway of slide boxes."></a> <figcaption class="figure-caption text-center">Avian parasite slide boxes</figcaption>
 </figure>
     </div>
 
 <div class="col">
-       <figure class="figure"><a data-fslightbox="4" href="/images/exampledigene.JPG"><img src="/images/exampledigene.JPG" class="figure-img img-thumbnail border border-secondary" alt="Photograph of a person standing with their back to a nest box."></a> <figcaption class="figure-caption text-center">A digenean from LRP</figcaption>
+       <figure class="figure"><a data-fslightbox="4" href="/images/exampledigene.jpg"><img src="/images/exampledigene.jpg" class="figure-img img-thumbnail border border-secondary" alt="Photograph of a person standing with their back to a nest box."></a> <figcaption class="figure-caption text-center">A digenean from LRP</figcaption>
 </figure>
     </div>
 
 <div class="col">
-       <figure class="figure"><a data-fslightbox="4" href="/images/ibisworm.JPG"><img src="/images/ibisworm.JPG" class="figure-img img-thumbnail border border-secondary" alt="Photograph of five bluebird eggs in a nest."></a> <figcaption class="figure-caption text-center">Cestode from a White Ibis</figcaption>
+       <figure class="figure"><a data-fslightbox="4" href="/images/ibisworm.JPG"><img src="/images/ibisworm.jpg" class="figure-img img-thumbnail border border-secondary" alt="Photograph of five bluebird eggs in a nest."></a> <figcaption class="figure-caption text-center">Cestode from a White Ibis</figcaption>
 </figure>
     </div>
 
@@ -78,17 +81,17 @@ A condensed research summary of the projects I've worked on over time. I employ 
 <div class="row gap-2 d-flex justify-content-between">
 
 <div class="col">
-     <figure class="figure"><a data-fslightbox="3" href="/images/birdweight.JPG"><img src="/images/birdweight.JPG" class="figure-img img-thumbnail border border-secondary" alt="Photograph of a nestling bluebird being weighed."></a> <figcaption class="figure-caption text-center">Weighing a nestling bluebird</figcaption>
+     <figure class="figure"><a data-fslightbox="3" href="/images/birdweight.jpg"><img src="/images/birdweight.jpg" class="figure-img img-thumbnail border border-secondary" alt="Photograph of a nestling bluebird being weighed."></a> <figcaption class="figure-caption text-center">Weighing a nestling bluebird</figcaption>
 </figure>
     </div>
 
 <div class="col">
-       <figure class="figure"><a data-fslightbox="3" href="/images/nestbox.JPG"><img src="/images/nestbox.JPG" class="figure-img img-thumbnail border border-secondary" alt="Photograph of a person standing with their back to a nest box."></a> <figcaption class="figure-caption text-center">In the field</figcaption>
+       <figure class="figure"><a data-fslightbox="3" href="/images/nestbox.jpg"><img src="/images/nestbox.jpg" class="figure-img img-thumbnail border border-secondary" alt="Photograph of a person standing with their back to a nest box."></a> <figcaption class="figure-caption text-center">In the field</figcaption>
 </figure>
     </div>
 
 <div class="col">
-       <figure class="figure"><a data-fslightbox="3" href="/images/eggs.JPG"><img src="/images/eggs.JPG" class="figure-img img-thumbnail border border-secondary" alt="Photograph of five bluebird eggs in a nest."></a> <figcaption class="figure-caption text-center">Eastern Bluebird Eggs</figcaption>
+       <figure class="figure"><a data-fslightbox="3" href="/images/eggs.JPG"><img src="/images/eggs.jpg" class="figure-img img-thumbnail border border-secondary" alt="Photograph of five bluebird eggs in a nest."></a> <figcaption class="figure-caption text-center">Eastern Bluebird Eggs</figcaption>
 </figure>
     </div>
 
@@ -120,12 +123,12 @@ A condensed research summary of the projects I've worked on over time. I employ 
     </div>
 
 <div class="col">
-       <figure class="figure"><a data-fslightbox="2" href="/images/dartfrog.JPG"><img src="/images/dartfrog.JPG" class="figure-img img-thumbnail border border-secondary" alt="Photograph of poison dart frogs."></a> <figcaption class="figure-caption text-center">Poison Dart Frog</figcaption>
+       <figure class="figure"><a data-fslightbox="2" href="/images/dartfrog.jpg"><img src="/images/dartfrog.jpg" class="figure-img img-thumbnail border border-secondary" alt="Photograph of poison dart frogs."></a> <figcaption class="figure-caption text-center">Poison Dart Frog</figcaption>
 </figure>
     </div>
 
 <div class="col">
-       <figure class="figure"><a data-fslightbox="2" href="/images/treefrog.JPG"><img src="/images/treefrog.JPG" class="figure-img img-thumbnail border border-secondary" alt="Photograph of a white's tree frog."></a> <figcaption class="figure-caption text-center">White's Tree Frog</figcaption>
+       <figure class="figure"><a data-fslightbox="2" href="/images/treefrog.jpg"><img src="/images/treefrog.jpg" class="figure-img img-thumbnail border border-secondary" alt="Photograph of a white's tree frog."></a> <figcaption class="figure-caption text-center">White's Tree Frog</figcaption>
 </figure>
     </div>
 
@@ -159,12 +162,12 @@ A condensed research summary of the projects I've worked on over time. I employ 
     </div>
 
 <div class="col">
-       <figure class="figure"><a data-fslightbox="1" href="/images/wetland.JPG"><img src="/images/wetland.JPG" class="figure-img img-thumbnail border border-secondary" alt="Photograph of a person standing in a wetland with a net."></a> <figcaption class="figure-caption text-center">Fieldwork, June 2019</figcaption>
+       <figure class="figure"><a data-fslightbox="1" href="/images/wetland.jpg"><img src="/images/wetland.jpg" class="figure-img img-thumbnail border border-secondary" alt="Photograph of a person standing in a wetland with a net."></a> <figcaption class="figure-caption text-center">Fieldwork, June 2019</figcaption>
 </figure>
     </div>
 
 <div class="col">
-       <figure class="figure"><a data-fslightbox="1" href="/images/firesalamander.JPG"><img src="/images/firesalamander.JPG" class="figure-img img-thumbnail border border-secondary" alt="Photograph of five eastern newts in a container."></a> <figcaption class="figure-caption text-center">Fire Salamander, June 2021</figcaption>
+       <figure class="figure"><a data-fslightbox="1" href="/images/firesalamander.jpg"><img src="/images/firesalamander.jpg" class="figure-img img-thumbnail border border-secondary" alt="Photograph of a fire salamander."></a> <figcaption class="figure-caption text-center">Fire Salamander, June 2021</figcaption>
 </figure>
     </div>
 
