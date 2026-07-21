@@ -18,7 +18,7 @@ Hello! My name is Sydney Horan. I am a Ph.D. candidate at the **University of Co
 
 <div class="row">
 
-<div class="col p-3">
+<div class="col">
 <h5>News</h5>
 <ul>
 <li><b>August 2026:</b> Presenting at the <i>American Ornithological Society</i> in Amherst, MA.</li>
@@ -28,13 +28,15 @@ Hello! My name is Sydney Horan. I am a Ph.D. candidate at the **University of Co
 </ul>
 <a href="/research" style="text-decoration:none;">See my research page for more updates... <i class="fa-solid fa-angles-right"></i></a>
 </div>
-<div class="col-sm-4 bg-body-tertiary p-3">
+<div class="col-md-4 mt-3">
+<div class="card bg-body-tertiary p-3">
 <h5>Links</h5>
-<i class="fa-solid fa-envelope text-secondary"></i> <a href="mailto:sydney.horan@uconn.edu" style="text-decoration:none;">sydney.horan[@]uconn[.]edu</a><br>
-  <i class="fa-brands fa-orcid text-secondary"></i> <a href="https://orcid.org/0009-0006-5466-1367" style="text-decoration:none;" >ORCID</a><br>
+<p>
+<i class="fa-solid fa-envelope text-secondary"></i> <a href="mailto:sydney.horan@uconn.edu" style="text-decoration:none;">sydney.horan[@]uconn[.]edu</a><br><i class="fa-brands fa-orcid text-secondary"></i> <a href="https://orcid.org/0009-0006-5466-1367" style="text-decoration:none;">ORCID</a><br>
 <i class="fa-brands fa-bluesky text-secondary"></i> <a href="https://bsky.app/profile/sydhoran.com" style="text-decoration:none;">sydhoran.com</a><br>
 <i class="fa-brands fa-github text-secondary"></i> <a href="https://github.com/longspur" style="text-decoration:none;">longspur</a>
-
+</p>
+</div>
 </div>
 
 </div>

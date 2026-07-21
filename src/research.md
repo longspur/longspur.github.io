@@ -45,7 +45,7 @@ A condensed research summary of the projects I've worked on over time. I employ 
     </div>
 
 <div class="col">
-       <figure class="figure"><a data-fslightbox="4" href="/images/ibisworm.JPG"><img src="/images/ibisworm.jpg" class="figure-img img-thumbnail border border-secondary" alt="Photograph of five bluebird eggs in a nest."></a> <figcaption class="figure-caption text-center">Cestode from a White Ibis</figcaption>
+       <figure class="figure"><a data-fslightbox="4" href="/images/ibisworm.jpg"><img src="/images/ibisworm.jpg" class="figure-img img-thumbnail border border-secondary" alt="Photograph of five bluebird eggs in a nest."></a> <figcaption class="figure-caption text-center">Cestode from a White Ibis</figcaption>
 </figure>
     </div>
 
@@ -91,7 +91,7 @@ A condensed research summary of the projects I've worked on over time. I employ 
     </div>
 
 <div class="col">
-       <figure class="figure"><a data-fslightbox="3" href="/images/eggs.JPG"><img src="/images/eggs.jpg" class="figure-img img-thumbnail border border-secondary" alt="Photograph of five bluebird eggs in a nest."></a> <figcaption class="figure-caption text-center">Eastern Bluebird Eggs</figcaption>
+       <figure class="figure"><a data-fslightbox="3" href="/images/eggs.jpg"><img src="/images/eggs.jpg" class="figure-img img-thumbnail border border-secondary" alt="Photograph of five bluebird eggs in a nest."></a> <figcaption class="figure-caption text-center">Eastern Bluebird Eggs</figcaption>
 </figure>
     </div>
 
