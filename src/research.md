@@ -15,6 +15,14 @@ A condensed research summary of the projects I've worked on over time. I employ 
 
 ---
 
+<style>
+  .gallery-img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover; 
+  }
+</style>
+
 <h4>Using historical parasite collections to reconstruct host biology and expand biodiversity records</i></h3>
      <div class="text-secondary"> <i class="fa-solid fa-calendar-days"></i> <em>2024-Present</em></div>
      <p>My current research projects include historical parasitology collections, such as the <b>Lawrence R. Penner (LRP) Parasitology Collection</b> housed at the University of Connecticut. So far, I have transcribed thousands of historical host necropsy cards, organized them into a spreadsheet, and identified hundreds of digenean trematodes and cyclophyllidean cestodes off of slides contained in the collection.</p>
@@ -32,20 +40,21 @@ A condensed research summary of the projects I've worked on over time. I employ 
 <hr>
 
 <div class="container" style="max-width:700px;">
+
 <div class="row gap-2 d-flex justify-content-between">
 
 <div class="col">
-     <figure class="figure"><a data-fslightbox="4" href="/images/slides.jpg"><img src="/images/slides.jpg" class="figure-img img-thumbnail border border-secondary" alt="A photograph of a hallway of slide boxes."></a> <figcaption class="figure-caption text-center">Avian parasite slide boxes</figcaption>
+     <figure class="figure"><a data-fslightbox="4" href="/images/slides.jpg"><img src="/images/slides.jpg" class="figure-img img-thumbnail gallery-img border border-secondary" alt="A photograph of a hallway of slide boxes."></a> <figcaption class="figure-caption text-center">Avian parasite slide boxes</figcaption>
 </figure>
     </div>
 
 <div class="col">
-       <figure class="figure"><a data-fslightbox="4" href="/images/exampledigene.jpg"><img src="/images/exampledigene.jpg" class="figure-img img-thumbnail border border-secondary" alt="Photograph of a person standing with their back to a nest box."></a> <figcaption class="figure-caption text-center">A digenean from LRP</figcaption>
+       <figure class="figure"><a data-fslightbox="4" href="/images/exampledigene.jpg"><img src="/images/exampledigene.jpg" class="figure-img img-thumbnail gallery-img border border-secondary" alt="Photograph of a person standing with their back to a nest box."></a> <figcaption class="figure-caption text-center">A digenean from LRP</figcaption>
 </figure>
     </div>
 
 <div class="col">
-       <figure class="figure"><a data-fslightbox="4" href="/images/ibisworm.jpg"><img src="/images/ibisworm.jpg" class="figure-img img-thumbnail border border-secondary" alt="Photograph of five bluebird eggs in a nest."></a> <figcaption class="figure-caption text-center">Cestode from a White Ibis</figcaption>
+       <figure class="figure"><a data-fslightbox="4" href="/images/ibisworm.jpg"><img src="/images/ibisworm.jpg" class="figure-img img-thumbnail gallery-img border border-secondary" alt="Photograph of five bluebird eggs in a nest."></a> <figcaption class="figure-caption text-center">Cestode from a White Ibis</figcaption>
 </figure>
     </div>
 
@@ -81,17 +90,17 @@ A condensed research summary of the projects I've worked on over time. I employ 
 <div class="row gap-2 d-flex justify-content-between">
 
 <div class="col">
-     <figure class="figure"><a data-fslightbox="3" href="/images/birdweight.jpg"><img src="/images/birdweight.jpg" class="figure-img img-thumbnail border border-secondary" alt="Photograph of a nestling bluebird being weighed."></a> <figcaption class="figure-caption text-center">Weighing a nestling bluebird</figcaption>
+     <figure class="figure"><a data-fslightbox="3" href="/images/birdweight.jpg"><img src="/images/birdweight.jpg" class="figure-img img-thumbnail gallery-img border border-secondary" alt="Photograph of a nestling bluebird being weighed."></a> <figcaption class="figure-caption text-center">Weighing a nestling bluebird</figcaption>
 </figure>
     </div>
 
 <div class="col">
-       <figure class="figure"><a data-fslightbox="3" href="/images/nestbox.jpg"><img src="/images/nestbox.jpg" class="figure-img img-thumbnail border border-secondary" alt="Photograph of a person standing with their back to a nest box."></a> <figcaption class="figure-caption text-center">In the field</figcaption>
+       <figure class="figure"><a data-fslightbox="3" href="/images/nestbox.jpg"><img src="/images/nestbox.jpg" class="figure-img img-thumbnail gallery-img border border-secondary" alt="Photograph of a person standing with their back to a nest box."></a> <figcaption class="figure-caption text-center">In the field</figcaption>
 </figure>
     </div>
 
 <div class="col">
-       <figure class="figure"><a data-fslightbox="3" href="/images/eggs.jpg"><img src="/images/eggs.jpg" class="figure-img img-thumbnail border border-secondary" alt="Photograph of five bluebird eggs in a nest."></a> <figcaption class="figure-caption text-center">Eastern Bluebird Eggs</figcaption>
+       <figure class="figure"><a data-fslightbox="3" href="/images/eggs.jpg"><img src="/images/eggs.jpg" class="figure-img img-thumbnail gallery-img border border-secondary" alt="Photograph of five bluebird eggs in a nest."></a> <figcaption class="figure-caption text-center">Eastern Bluebird Eggs</figcaption>
 </figure>
     </div>
 
@@ -118,17 +127,17 @@ A condensed research summary of the projects I've worked on over time. I employ 
 <div class="row gap-2 d-flex justify-content-between">
 
 <div class="col">
-     <figure class="figure"><a data-fslightbox="2" href="/images/bombina.JPG"><img src="/images/bombina.JPG" class="figure-img img-thumbnail border border-secondary" alt="Photograph of a fire-bellied toad."></a> <figcaption class="figure-caption text-center">Fire-bellied Toad</figcaption>
+     <figure class="figure"><a data-fslightbox="2" href="/images/bombina.JPG"><img src="/images/bombina.JPG" class="figure-img img-thumbnail gallery-img border border-secondary" alt="Photograph of a fire-bellied toad."></a> <figcaption class="figure-caption text-center">Fire-bellied Toad</figcaption>
 </figure>
     </div>
 
 <div class="col">
-       <figure class="figure"><a data-fslightbox="2" href="/images/dartfrog.jpg"><img src="/images/dartfrog.jpg" class="figure-img img-thumbnail border border-secondary" alt="Photograph of poison dart frogs."></a> <figcaption class="figure-caption text-center">Poison Dart Frog</figcaption>
+       <figure class="figure"><a data-fslightbox="2" href="/images/dartfrog.jpg"><img src="/images/dartfrog.jpg" class="figure-img img-thumbnail gallery-img border border-secondary" alt="Photograph of poison dart frogs."></a> <figcaption class="figure-caption text-center">Poison Dart Frog</figcaption>
 </figure>
     </div>
 
 <div class="col">
-       <figure class="figure"><a data-fslightbox="2" href="/images/treefrog.jpg"><img src="/images/treefrog.jpg" class="figure-img img-thumbnail border border-secondary" alt="Photograph of a white's tree frog."></a> <figcaption class="figure-caption text-center">White's Tree Frog</figcaption>
+       <figure class="figure"><a data-fslightbox="2" href="/images/treefrog.jpg"><img src="/images/treefrog.jpg" class="figure-img img-thumbnail gallery-img border border-secondary" alt="Photograph of a white's tree frog."></a> <figcaption class="figure-caption text-center">White's Tree Frog</figcaption>
 </figure>
     </div>
 
@@ -157,17 +166,17 @@ A condensed research summary of the projects I've worked on over time. I employ 
 <div class="row gap-2 d-flex justify-content-between">
 
 <div class="col">
-     <figure class="figure"><a data-fslightbox="1" href="/images/easternnewts1.JPG"><img src="/images/easternnewts1.JPG" class="figure-img img-thumbnail border border-secondary" alt="Photograph of five eastern newts in a container."></a> <figcaption class="figure-caption text-center">Field collection of eastern newts, June 2019</figcaption>
+     <figure class="figure"><a data-fslightbox="1" href="/images/easternnewts1.JPG"><img src="/images/easternnewts1.JPG" class="figure-img img-thumbnail gallery-img border border-secondary" alt="Photograph of five eastern newts in a container."></a> <figcaption class="figure-caption text-center">Field collection of eastern newts, June 2019</figcaption>
 </figure>
     </div>
 
 <div class="col">
-       <figure class="figure"><a data-fslightbox="1" href="/images/wetland.jpg"><img src="/images/wetland.jpg" class="figure-img img-thumbnail border border-secondary" alt="Photograph of a person standing in a wetland with a net."></a> <figcaption class="figure-caption text-center">Fieldwork, June 2019</figcaption>
+       <figure class="figure"><a data-fslightbox="1" href="/images/wetland.jpg"><img src="/images/wetland.jpg" class="figure-img img-thumbnail gallery-img border border-secondary" alt="Photograph of a person standing in a wetland with a net."></a> <figcaption class="figure-caption text-center">Fieldwork, June 2019</figcaption>
 </figure>
     </div>
 
 <div class="col">
-       <figure class="figure"><a data-fslightbox="1" href="/images/firesalamander.jpg"><img src="/images/firesalamander.jpg" class="figure-img img-thumbnail border border-secondary" alt="Photograph of a fire salamander."></a> <figcaption class="figure-caption text-center">Fire Salamander, June 2021</figcaption>
+       <figure class="figure"><a data-fslightbox="1" href="/images/firesalamander.jpg"><img src="/images/firesalamander.jpg" class="figure-img img-thumbnail gallery-img border border-secondary" alt="Photograph of a fire salamander."></a> <figcaption class="figure-caption text-center">Fire Salamander, June 2021</figcaption>
 </figure>
     </div>
 
