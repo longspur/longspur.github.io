@@ -220,6 +220,56 @@ I draw stickers, posters, logos, comics, etc. for scientific outreach purposes. 
 
   ##### <i class="fa-solid fa-note-sticky text-secondary fa-sm"></i> Stickers
 ---
+
+I like to design stickers for outreach events.
+
+<style>
+
+/* Styling the stickers */
+.gallery{
+    padding:2px;
+    margin-bottom:2em;
+    gap:2px;
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    align-items:center;
+    position: relative;
+}
+
+.gallery img{
+    max-height:200px;
+    filter:drop-shadow(4px 4px 5px black);
+    transition:0.3s;
+    z-index:1;
+}
+
+.gallery a:nth-child(even) img:hover,
+.gallery img:nth-child(even):hover,
+.gallery span:nth-child(even) img:hover {
+    transform:scale(1.2) rotate(10deg);
+    filter:drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.5));
+    transition:0.3s;
+}
+
+.gallery a:nth-child(odd) img:hover,
+.gallery img:nth-child(odd):hover,
+.gallery span:nth-child(odd) img:hover {
+    transform:scale(1.2) rotate(-10deg);
+    filter:drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.5));
+    transition:0.3s;
+}
+
+  </style>
+
+
+<div class="gallery">
+<img src="/images/kiwisticker.png" alt="Kiwi Sticker"><img src="/images/lovelab.png" alt="Love Lab Sticker"><img src="/images/owl.png" alt="CSMNH Owl Sticker"><img src="/images/eebfrog.png" alt="EEB Frog">
+</div>
+
+##### Printed Examples
+---
+
 <div class="container" style="max-width:700px;">
 <div class="row gap-2 d-flex justify-content-between">
 
@@ -238,8 +288,6 @@ I draw stickers, posters, logos, comics, etc. for scientific outreach purposes. 
        <figure class="figure"><a data-fslightbox="3" href="/images/npcs_stickers.jpg"><img src="/images/npcs_stickers.jpg" class="figure-img img-thumbnail gallery-img border border-secondary" alt="Photograph of 4 stickers depicting birds and ectoparasites."></a> <figcaption class="figure-caption text-center">NPCS 2021 Stickers</figcaption>
 </figure>
     </div>
-
-
 
   </div></div>
 
