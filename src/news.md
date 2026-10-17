@@ -8,7 +8,10 @@ layout: base.njk
 ---
 
  <ul>
-{% for update in news %}
+{% for update in news["recent"] %}
+        <li style="margin-top:-10px;"><b>{{ update.date }}</b>: {{ update.desc }}</li>
+{% endfor %}
+{% for update in news["older"] %}
         <li style="margin-top:-10px;"><b>{{ update.date }}</b>: {{ update.desc }}</li>
 {% endfor %}
 </ul>

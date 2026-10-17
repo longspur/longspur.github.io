@@ -10,6 +10,9 @@ layout: base.njk
 
 Hello! My name is Sydney Horan. I am a Ph.D. candidate at the **University of Connecticut** in the [Department of Ecology and Evolutionary Biology](https://eeb.uconn.edu/). I am a scientist, artist, and photographer, and I incorporate these passions together into science communication. My research broadly involves patterns in host-parasite interactions under conditions of environmental change. I balance learning about the parasites, their hosts, and the ecosystems they live in. I also have a passion for natural history collections, museums, and outreach.
 
+
+
+
 ---
 
 <div class="row">
@@ -17,10 +20,11 @@ Hello! My name is Sydney Horan. I am a Ph.D. candidate at the **University of Co
 <div class="col">
 <h5>News</h5>
  <ul>
-{% for update in news.slice(0,3) %}
+{% for update in news["recent"]  %}
         <li style="margin-top:-10px;"><b>{{ update.date }}</b>: {{ update.desc }}</li>
 {% endfor %}
 </ul>
+
 <a href="/news" style="text-decoration:none;">See previous updates... <i class="fa-solid fa-angles-right"></i></a>
 </div>
 <div class="col-md-4 mt-3">
