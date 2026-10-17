@@ -16,13 +16,12 @@ Hello! My name is Sydney Horan. I am a Ph.D. candidate at the **University of Co
 
 <div class="col">
 <h5>News</h5>
-<ul>
-<li><b>August 2026:</b> Presenting at the <i>American Ornithological Society</i> in Amherst, MA.</li>
-<li><b>July 2026:</b> Presented at the <i>American Society of Parasitologists</i> in Orlando, FL.</li>
-<li><b>July 2026:</b> Assisted <i><a href="https://events.uconn.edu/connecticut-state-museum-of-natural-history/event/2062403-csmnh-big-bird-day">Big Bird Day</a></i> with the CSMNH!</li>
-<li><b>June 2026:</b> Presented a poster at the <i>International Workshop on Cestode Systematics and Phylogeny</i> in Reykjavík, Iceland.</li>
+ <ul>
+{% for update in news.slice(0,3) %}
+        <li style="margin-top:-10px;"><b>{{ update.date }}</b>: {{ update.desc }}</li>
+{% endfor %}
 </ul>
-<a href="/research" style="text-decoration:none;">See my research page for more updates... <i class="fa-solid fa-angles-right"></i></a>
+<a href="/news" style="text-decoration:none;">See previous updates... <i class="fa-solid fa-angles-right"></i></a>
 </div>
 <div class="col-md-4 mt-3">
 <div class="card bg-body-tertiary p-3">

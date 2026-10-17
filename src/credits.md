@@ -6,7 +6,7 @@ layout: base.njk
 
 ### Credits
 
-This site was proudly coded by hand from the ground-up, without the use of generative AI. It may seem simpler to ask a program to generate a layout, or to use a WYSIWYG editor (drag-and-drop), but I enjoy the challenge of understanding the bones that make up my site. Additionally, I have much more control over the layout. So while it takes more time, I am much more satisfied with the result. 
+This site was written by me in HTML, currently uses a Bootstrap CSS framework (to standardize the layout), and limited JavaScript for features like the lightboxes and dark/light mode switchers. I am an amateur webmaster and enjoy having much more granular control over every aspect of the layout rather than using code produced by generative AI.
 
 Nonetheless, the code did not appear from the ether! Here are some of the resources I used to construct my site.
 

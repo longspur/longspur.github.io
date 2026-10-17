@@ -14,7 +14,7 @@ layout: base.njk
 
 
 <div class="card text-secondary bg-body-tertiary p-3 mb-4">
-<div style="font-size:0.9em;"><i class="fa-solid fa-code"></i> In my free time, I am also an amateur webmaster. This site's layout was coded by me without the use of generative AI. For more information on the resources I used to build this site, <a href="/credits">click here</a>.</div></div>
+<div style="font-size:0.9em;"><i class="fa-solid fa-code"></i> In my free time, I am also an amateur webmaster; code for this site was written by me. For more information on the resources I used to build this site, <a href="/credits">click here</a>.</div></div>
 </div>
 
 <div class="col-md-4 text-center"> 
